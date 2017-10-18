@@ -1,0 +1,78 @@
+@import 'normalize.css';
+@import './ui/grid.css';
+@import './ui/layout.css';
+@import './ui/intro.css';
+@import './ui/typography.css';
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* Background colors */
+  --background: goldenrod;
+  --blue: #1056fb;
+  --bgRed: red;
+  --bgGreen: #00cc33;
+
+  --lightGrey: #f2f2f2;
+  --grey: #d9d9d9;
+  --darkGrey: #bfbfbf;
+
+  /* Type colors */
+  --text: white;
+  --textDark: black;
+
+  /* Font weights */
+  --bold: "UniversLT-Bold", sans-serif;
+  --regular: "UniversLT", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--textDark);
+  font-size: 12px;
+  font-family: 'Chivo', sans-serif;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.clear:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.gradient {
+  background: -moz-linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(5,193,255,1) 50%, rgba(255,0,255,1) 75%, rgba(255,0,0,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,0,1)), color-stop(25%, rgba(255,255,0,1)), color-stop(50%, rgba(5,193,255,1)), color-stop(75%, rgba(255,0,255,1)), color-stop(100%, rgba(255,0,0,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(5,193,255,1) 50%, rgba(255,0,255,1) 75%, rgba(255,0,0,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(5,193,255,1) 50%, rgba(255,0,255,1) 75%, rgba(255,0,0,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(5,193,255,1) 50%, rgba(255,0,255,1) 75%, rgba(255,0,0,1) 100%); /* ie10+ */
+  background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(5,193,255,1) 50%, rgba(255,0,255,1) 75%, rgba(255,0,0,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ff0000',GradientType=1 ); /* ie6-9 */
+}
+
+/**
+ * Work
+ */
+
+.work {
+  padding: 24px;
+}
+
+.work img {
+  margin-bottom: 24px;
+}
+

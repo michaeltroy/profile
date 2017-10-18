@@ -1,0 +1,50 @@
+.document,
+.intro_greeting,
+.intro_picture {}
+
+.intro_picture img,
+.intro_greeting,
+.document {
+  transform: translate3d(0);
+  position: relative;
+}
+
+
+.intro {
+  padding-top: 104px;
+  margin: 0 auto 64px auto;
+}
+
+.content,
+.footer {
+  padding: 0 24px;
+  margin: 0 auto 44px auto;
+}
+
+.new-role {
+  margin-bottom: 44px;
+}
+
+.footer {
+  padding-bottom: 44px;
+}
+
+@media (min-width: 30em) {
+  .footer {
+    padding-bottom: 64px;
+  }
+}
+
+@media (min-width: 60em) {
+
+  .content,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer {
+    padding-bottom: 124px;
+  }
+}
+
