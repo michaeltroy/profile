@@ -1,7 +1,6 @@
 @import 'normalize.css';
 @import './ui/grid.css';
-@import './ui/layout.css';
-@import './ui/intro.css';
+@import './ui/helpers.css';
 @import './ui/typography.css';
 
 * {
@@ -11,8 +10,8 @@
 :root {
 
   /* Background colors */
-  --background: goldenrod;
-  --blue: #1056fb;
+  --background: #153AFF;
+  --blue: #153AFF;
   --bgRed: red;
   --bgGreen: #00cc33;
 
@@ -34,10 +33,23 @@ body {
   height: 100%;
 }
 
+html {
+  background-color: var(--blue);
+}
+
 body {
-  color: var(--textDark);
+  color: var(--text);
   font-size: 12px;
   font-family: 'Chivo', sans-serif;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+.headshot {
+  box-shadow: 8px 8px 0 0 black;
 }

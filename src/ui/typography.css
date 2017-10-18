@@ -15,73 +15,15 @@ ul.no-list {
   list-style-type: none;
 }
 
-/**
- * Links
- */
-
 a {
   text-decoration: none;
   color: blue;
 }
 
-a:hover {
-}
+a:hover {}
 
-/**
- * Content
- */
-
-.content h2,
-.footer h2 {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-}
-
-.content_about p {
-  text-indent: 16px;
-}
-
-.content_about p:first-child {
- text-indent: 0;
- color:  red;
-}
-
-/**
- * Post
- */
-
-.post_title {
-  color: blue;
-}
-
-@media (min-width: 30em) {
-
-  h1, h2, h3, h4, h5, h6,
-  p, ul, li {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  .content h2,
-  .footer h2 {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 60em) {
-
-  h1, h2, h3, h4, h5, h6,
-  p, ul, li {
-    font-size: 22px;
-    line-height: 30px;
-  }
-
-  .content h2,
-  .footer h2 {
-    font-size: 14px;
-  }
-}
+@media (min-width: 30em) {  }
+@media (min-width: 60em) {  }
 
 
 
