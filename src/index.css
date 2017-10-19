@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import './ui/grid.css';
+@import './ui/spacing.css';
 @import './ui/helpers.css';
 @import './ui/typography.css';
 
@@ -10,7 +11,7 @@
 :root {
 
   /* Background colors */
-  --background: #153AFF;
+  --background: #efefef;
   --blue: #153AFF;
   --bgRed: red;
   --bgGreen: #00cc33;
@@ -20,7 +21,7 @@
   --darkGrey: #bfbfbf;
 
   /* Type colors */
-  --text: white;
+  --text: #8e2fbe;
   --textDark: black;
 
   /* Font weights */
@@ -34,15 +35,26 @@ body {
 }
 
 html {
-  background-color: var(--blue);
+  background-color: var(--background);
 }
 
 body {
+  padding: 16px;
   color: var(--text);
-  font-size: 12px;
-  font-family: 'Chivo', sans-serif;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 30em) {
+
+  body {
+    padding: 16px;
+  }
+}
+
+@media (min-width: 60em) {
+
+  body {
+    padding: 0;
+  }
 }
 
 
@@ -51,5 +63,5 @@ body {
 
 
 .headshot {
-  box-shadow: 8px 8px 0 0 black;
+  box-shadow: 8px 8px 0 0 #456bff;
 }
