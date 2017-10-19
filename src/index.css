@@ -11,7 +11,7 @@
 :root {
 
   /* Background colors */
-  --background: #efefef;
+  --background: white;
   --blue: #153AFF;
   --bgRed: red;
   --bgGreen: #00cc33;
@@ -21,7 +21,7 @@
   --darkGrey: #bfbfbf;
 
   /* Type colors */
-  --text: #8e2fbe;
+  --text: black;
   --textDark: black;
 
   /* Font weights */
@@ -63,5 +63,11 @@ body {
 
 
 .headshot {
-  box-shadow: 8px 8px 0 0 #456bff;
+  box-shadow: 8px 8px 0 0 #e03737;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border: 4px solid #2fbe2f;
 }
