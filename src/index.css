@@ -9,27 +9,6 @@
   box-sizing: border-box;
 }
 
-:root {
-
-  /* Background colors */
-  --background: darkgrey;
-  --blue: #153AFF;
-  --bgRed: red;
-  --bgGreen: #00cc33;
-
-  --lightGrey: #f2f2f2;
-  --grey: #d9d9d9;
-  --darkGrey: #bfbfbf;
-
-  /* Type colors */
-  --text: #456bff;
-  --textDark: black;
-
-  /* Font weights */
-  --bold: "UniversLT-Bold", sans-serif;
-  --regular: "UniversLT", sans-serif;
-}
-
 html,
 body {
   height: 100%;
@@ -84,14 +63,14 @@ body {
  */
 
 .intro {
-
+  color: var(--red);
 }
 
 .content {
-
+  color: var(--blue);
 }
 
 .contact {
-
+  color: var(--yellow);
 }
 
