@@ -1,6 +1,5 @@
 @import 'normalize.css';
 @import './ui/grid.css';
-@import './ui/spacing.css';
 @import './ui/helpers.css';
 @import './ui/typography.css';
 @import './ui/colours.css';
@@ -36,9 +35,27 @@ body {
 /* -------------------------------------------------------------------------- */
 
 
-.headshot {
-  box-shadow: 8px 8px 0 0 #2fbe2f;
+.headshot_img {
+  box-shadow: 8px 8px 0 0 var(--green);
 }
+
+/*
+.headshot_img {
+  box-shadow:
+   var(--green) 1px 1px,
+   var(--green) 2px 2px,
+   var(--green) 3px 3px,
+   var(--green) 4px 4px,
+   var(--yellow) 5px 5px,
+   var(--yellow) 6px 6px,
+   var(--yellow) 7px 7px,
+   var(--yellow) 8px 8px,
+   var(--red) 9px 9px,
+   var(--red) 10px 10px,
+   var(--red) 11px 11px,
+   var(--red) 12px 12px
+}
+*/
 
 .circle {
   width: 100px;
@@ -56,19 +73,106 @@ body {
   border: 4px solid #e03737;
 }
 
-/**
- * Sections
- */
+
+
+/* Headshot */
+
+.headshot {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 30em) {
+
+  .headshot {
+    margin-top: 16px;
+    margin-bottom: 64px;
+  }
+}
+
+@media (min-width: 60em) {
+
+  .headshot {
+    margin-top: 64px;
+  }
+}
+
+
+
+/* Intro */
 
 .intro {
-  color: var(--red);
+  margin-bottom: 32px;
+}
+
+@media (min-width: 30em) {
+
+  .intro {
+    color: var(--green);
+    margin-bottom: 64px;
+  }
+}
+
+
+@media (min-width: 60em) {
+
+  .intro {
+    color: var(--text);
+  }
+}
+
+
+
+/* Connect */
+
+.connect {
+  font-size: 2.5vw;
+  margin-bottom: 32px;
+}
+
+.button {
+  border-width: 2px;
+  border-style: solid;
+  padding: 8px 12px;
+  margin-right: 8px;
+}
+
+.button:link {
+  box-shadow:
+   1px 1px,
+   2px 2px,
+   3px 3px,
+   4px 4px
+}
+
+@media (min-width: 30em) {
+  .connect {
+    margin-bottom: 64px;
+  }
+}
+
+@media (min-width: 60em) {
+  .connect {
+    font-size: 1.5vw;
+  }
+}
+
+
+
+/* Content */
+
+.content,
+.current {
+  margin-bottom: 32px;
 }
 
 .content {
-  color: var(--blue);
+  padding-bottom:  64px;
 }
 
-.contact {
-  color: var(--yellow);
+@media (min-width: 30em) {
+
+  .content {
+    color: var(--blue);
+  }
 }
 
