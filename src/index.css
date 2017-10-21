@@ -131,6 +131,7 @@ body {
 .connect {
   font-size: 4vw;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .button {
