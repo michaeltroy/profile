@@ -129,7 +129,7 @@ body {
 /* Connect */
 
 .connect {
-  font-size: 2.5vw;
+  font-size: 4vw;
   margin-bottom: 16px;
 }
 
@@ -153,7 +153,8 @@ body {
 
 @media (min-width: 30em) {
   .connect {
-    margin-bottom: 64px;
+    font-size: 3vw;
+    margin-bottom: 48px;
   }
 }
 
@@ -180,6 +181,14 @@ body {
 
   .content {
     color: var(--blue);
+    padding-bottom:  32px;
+  }
+}
+
+@media (min-width: 60em) {
+
+  .content {
+    padding-bottom:  64px;
   }
 }
 
