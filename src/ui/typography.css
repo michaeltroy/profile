@@ -47,7 +47,7 @@ ul.no-list {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: var(--black);
 }
 
 a:hover {}

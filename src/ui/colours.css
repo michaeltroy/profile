@@ -20,14 +20,17 @@
   --textDark: black;
 }
 
-.border-red    { border-color: var(--red); }
-.border-blue   { border-color: var(--blue); }
-.border-green   { border-color: var(--green); }
-.border-yellow { border-color: var(--yellow); }
-.border-purple { border-color: var(--purple); }
 
-.red    { color: var(--red); }
-.blue   { color: var(--blue); }
-.green   { color: var(--green); }
-.yellow { color: var(--yellow); }
-.purple { color: var(--purple); }
+@media (min-width: 30em) {
+  .border-red    { border-color: var(--red); }
+  .border-blue   { border-color: var(--blue); }
+  .border-green   { border-color: var(--green); }
+  .border-yellow { border-color: var(--yellow); }
+  .border-purple { border-color: var(--purple); }
+
+  .red    { color: var(--red); }
+  .blue   { color: var(--blue); }
+  .green   { color: var(--green); }
+  .yellow { color: var(--yellow); }
+  .purple { color: var(--purple); }
+}
