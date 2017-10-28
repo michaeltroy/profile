@@ -19,6 +19,7 @@ body {
 }
 
 @media (min-width: 30em) {
+
   html {
     background-color: var(--background);
   }
@@ -50,14 +51,14 @@ body {
 @media (min-width: 30em) {
   .headshot_img {
     box-shadow:
-      var(--green) 1px 1px,
-      var(--green) 2px 2px,
-      var(--green) 3px 3px,
-      var(--green) 4px 4px,
-      var(--green) 5px 5px,
-      var(--green) 6px 6px,
-      var(--green) 7px 7px,
-      var(--green) 8px 8px
+      var(--black) 1px 1px,
+      var(--black) 2px 2px,
+      var(--black) 3px 3px,
+      var(--black) 4px 4px,
+      var(--black) 5px 5px,
+      var(--black) 6px 6px,
+      var(--black) 7px 7px,
+      var(--black) 8px 8px
   }
 }
 
@@ -111,7 +112,6 @@ body {
 @media (min-width: 30em) {
 
   .intro {
-    color: var(--green);
     margin-bottom: 64px;
   }
 }
@@ -178,13 +178,6 @@ body {
   border-bottom: 2px solid;
 }
 
-@media (min-width: 30em) {
-
-  .current a {
-    color: var(--blue);
-  }
-}
-
 .content {
   padding-bottom:  16px;
 }
@@ -192,7 +185,7 @@ body {
 @media (min-width: 30em) {
 
   .content {
-    color: var(--blue);
+
     padding-bottom:  32px;
   }
 }

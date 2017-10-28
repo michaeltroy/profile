@@ -5,18 +5,18 @@
   --red: #e03737;
   --purple: #8e2fbe;
   --green: #2fbe2f;
-  --black: #111111;
+  --black: #18192b;
   --white: white;
 
 
-  --background: #111111;
+  --background: #7b68ee;
 
   --lightGrey: #f2f2f2;
   --grey: #d9d9d9;
   --darkGrey: #bfbfbf;
 
   /* Type colors */
-  --text: --black;
+  --text: #18192b;
   --textDark: black;
 }
 
